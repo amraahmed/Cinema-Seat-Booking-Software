@@ -93,9 +93,9 @@ class Application(tk.Tk):
         
     def bookseat(self):
         for i in seatSelected:
-            seatSelected[i[0]][i[1]]['bg'] = 'brown'
-            seatSelected[i[0]][i[1]]['activebackground'] = 'brown'
-            seatSelected[i[0]][i[1]]['relief'] = 'sunken'
+            seatList[i[0]][i[1]]['bg'] = 'brown'
+            seatList[i[0]][i[1]]['activebackground'] = 'brown'
+            seatList[i[0]][i[1]]['relief'] = 'sunken'
             
             
     
